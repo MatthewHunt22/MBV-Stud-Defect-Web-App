@@ -4,3 +4,4 @@ Web Application built with Spring JPA/Hibernate and React, that helps track stud
 Still to-do:
  - Add defect charts to home page.
  - Add PDF of Stud Map to Stud Map page.
+ - Add error output if connection is not made to database.
