@@ -1,0 +1,34 @@
+.defect-list {
+  padding-left: 270px;
+  margin-top: 10px;
+}
+
+.table-styles {
+  width: 70%;
+  align-content: center;
+  margin: auto;
+  border-collapse: collapse;
+  margin-bottom: 2rem;
+}
+
+.table-styles td,
+.table-styles th {
+  border: 1px solid #ddd;
+  padding: 8px;
+  text-align: center;
+}
+
+.table-styles th {
+  background-color: #003366;
+  color: white;
+}
+.table-styles tr:nth-child(even) {
+  background-color: #f2f2f2;
+}
+
+@media (max-width: 1024px) {
+  .defect-list {
+    padding-left: 0;
+    margin-top: 70px;
+  }
+}

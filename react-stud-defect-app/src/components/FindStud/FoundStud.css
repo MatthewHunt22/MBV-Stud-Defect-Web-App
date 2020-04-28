@@ -1,0 +1,26 @@
+.stud-found-table {
+  margin: 1rem auto;
+  border: 3px solid #003366;
+}
+
+.stud-found-table tr {
+  display: table-cell;
+  padding: 1rem;
+}
+
+.stud-found-table tr td {
+  display: block;
+  padding: 0.4rem;
+}
+
+@media (max-width: 1024px) {
+  .stud-found-table tr {
+    padding: 0.5rem;
+  }
+  .stud-found-table tr td {
+    padding: 0.2rem;
+  }
+}
+
+@media (max-width: 414px) {
+}

@@ -1,0 +1,37 @@
+.toolbar {
+  display: none;
+}
+
+.toolbar-logo {
+  height: 42px;
+  margin: 0.2rem 0 0 0.5rem;
+}
+
+.spacer {
+  flex: 1;
+}
+
+.toolbar-images {
+  display: flex;
+  height: 100%;
+  align-items: center;
+  padding: 0 1rem;
+}
+
+@media (max-width: 1024px) {
+  .toolbar {
+    display: block;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background: #003366;
+    height: 56px;
+  }
+}
+
+/* @media (max-width: 600px) {
+  .toolbar-logo {
+    margin-right: 0.5rem;
+  }
+} */
